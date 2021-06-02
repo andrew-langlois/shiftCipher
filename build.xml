@@ -22,4 +22,7 @@
         <java jar="build/jar/Cipher.jar" fork="true"/>
     </target>
 
+    <junit>
+        <test name="JUnitShiftCipherTests"/>
+    </junit>
 </project>
