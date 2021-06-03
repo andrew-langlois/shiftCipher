@@ -22,7 +22,6 @@ public class JUnitShiftCipherTests {
   public void testEncodeASCII() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
     assertEquals(shiftCipher.encodeASCII(HELLO), KHOOR);
-    assertNotEqual(shiftCipher.encodeASCII(HELLO), KHOOR);
   }
 
   @Test
