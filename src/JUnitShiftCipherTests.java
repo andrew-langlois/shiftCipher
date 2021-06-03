@@ -14,6 +14,7 @@ public class JUnitShiftCipherTests {
 
   @Test
   public void testDecode() {
+    fail("Testing failed assertion, in testDecode()");
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
     assertEquals(shiftCipher.decode(KHOOR), HELLO);
   }
