@@ -26,6 +26,8 @@
         <classpath>
             <pathelement location="lib/junit-4.13.2.jar"/>
             <pathelement location="build/jar/Cipher.jar"/>
+            <pathelement path="${java.class.path}"/>
+            <pathelement path="lib/junit-4.13.2.jar"/>
         </classpath>
         <test name="JUnitShiftCipherTests"/>
     </junit>
