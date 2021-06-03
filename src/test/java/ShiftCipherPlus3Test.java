@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class JUnitShiftCipherTests {
+public class ShiftCipherPlus3Test {
 
   static final String HELLO = "HELLO";
   static final String KHOOR = "KHOOR";
