@@ -2,7 +2,7 @@ public class ShiftCipherPlus3 {
 /* This uses the 26 characters of the alphabet and maps A-Z to the numbers 0-25.
 
    The +3 cipher encodes A-Z to the numbers 0-25 respectively then adds 3, i.e. 3-28. N.B. 26-28 => 0-2
-   The +3 cipher decodes A-Z to the numbers 0-25 respectively by taking 3 away. N.B. 0-2 => 23-25
+   The +3 cipher decodes A-Z to the numbers 0-25 respectively by taking 3 away. N.B. -3 to -1 => 23-25
 */
   private char cipher[] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}; // cipher values A-Z => 0-25 based on Index position(0-25)
   private int  iCharacterAOffset = 65;   // A is char 65, so -65 aligns to cipher values 0-25
