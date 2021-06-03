@@ -2,7 +2,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<!-- interesting -->
-	<groupId></groupId>
+	<groupId>com.test</groupId>
 	<artifactId>cipher</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
