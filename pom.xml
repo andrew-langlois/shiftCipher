@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<!-- interesting -->
 	<groupId>uk.me.langlois</groupId>
-	<artifactId>cipher</artifactId>
+	<artifactId>shiftCipher</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>shiftCipher</name>
+	<name>shiftCipherPlus3</name>
 
 
 	<dependencies>
