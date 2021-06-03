@@ -22,6 +22,7 @@ public class JUnitShiftCipherTests {
   public void testEncodeASCII() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
     assertEquals(shiftCipher.encodeASCII(HELLO), KHOOR);
+    assertNotEqual(shiftCipher.encodeASCII(HELLO), KHOOR);
   }
 
   @Test
@@ -70,5 +71,6 @@ public class JUnitShiftCipherTests {
     System.out.println("Array Cipher Run time: " + totalTime + "ms" + "\n");
 
     assertEquals(sStartingValue, sCurrentValue);
+    fail("Testing failed assertion!");
   }
 }
