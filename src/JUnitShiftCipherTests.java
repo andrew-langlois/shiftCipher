@@ -3,38 +3,37 @@ import static org.junit.Assert.*;
 
 public class JUnitShiftCipherTests {
 
-  String s   = "HELLO";
-  String sEncodedValue = "HELLO";
-  String sEndValue     = "HELLO";
+  static final String HELLO = "HELLO";
+  static final String KHOOR = "KHOOR";
 
   @Test
   public void testEncode() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    assertEquals(shiftCipher.encode("HELLO"), "KHOOR");
+    assertEquals(shiftCipher.encode(HELLO), KHOOR);
   }
 
   @Test
   public void testDecode() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    assertEquals(shiftCipher.decode("KHOOR"), "HELLO");
+    assertEquals(shiftCipher.decode(KHOOR), HELLO);
   }
 
   @Test
   public void testEncodeASCII() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    assertEquals(shiftCipher.encodeASCII("HELLO"), "KHOOR");
+    assertEquals(shiftCipher.encodeASCII(HELLO), KHOOR);
   }
 
   @Test
   public void testDecodeASCII() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    assertEquals(shiftCipher.decodeASCII("KHOOR"), "HELLO");
+    assertEquals(shiftCipher.decodeASCII(KHOOR), HELLO);
   }
 
   @Test
   public void testEncodeAndDecode() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    String sStartingValue = "HELLO";
+    String sStartingValue = HELLO;
     String sCurrentValue  = new String(sStartingValue);
 
     long startTime = System.currentTimeMillis();
@@ -55,7 +54,7 @@ public class JUnitShiftCipherTests {
   @Test
   public void testEncodeASCIIAndDecodeASCII() {
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
-    String sStartingValue = "HELLO";
+    String sStartingValue = HELLO;
     String sCurrentValue  = new String(sStartingValue);
 
     long startTime = System.currentTimeMillis();
