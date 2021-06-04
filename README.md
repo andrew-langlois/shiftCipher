@@ -10,6 +10,16 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
     <td>F</td>
     <td>G</td>
     <td>H</td>
+    <td>I</td>
+    <td>J</td>
+    <td>K</td>
+    <td>L</td>
+    <td>M</td>
+    <td>N</td>
+    <td>O</td>
+    <td>P</td>
+    <td>Q</td>
+    <td>R</td>
     <td>...</td>
     <td>Z</td>
   </tr>
@@ -22,6 +32,16 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
     <td>5</td>
     <td>6</td>
     <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
     <td>...</td>
     <td>25</td>
    </tr>
