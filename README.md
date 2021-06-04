@@ -1,5 +1,5 @@
 # Shift Cipher
-Cipher Shifting A-Z characters by 3 character for encoding and decoding e.g. A=0 and 6=G
+Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=0 and 6=G
 <table style="width:100%">
   <tr>
     <td>A</td>
