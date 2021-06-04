@@ -27,6 +27,47 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
    </tr>
 </table>
 
+<table style="width:100%">
+  <tr>
+    <th>Encoding example</th>
+    <th>Decoding example</th>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <th>String</th>
+          <th>Cipher value</th>
+          <th>Shift +3</th>
+          <th>Encoded Text</th>
+        </tr>
+        <tr>
+          <td>HELLO</td>
+          <td>7 4 11 11 14</td>
+          <td>10 7 14 14 17</td>
+          <td>KHOOR</td>
+        </tr>
+      </table>  
+    </td>
+    <td>
+      <table>
+        <tr>
+          <th>String</th>
+          <th>Cipher value</th>
+          <th>Shift -3</th>
+          <th>Decoded Text</th>
+        </tr>
+        <tr>
+          <td>KHOOR</td>
+          <td>10 7 14 14 17</td>
+          <td>7 4 11 11 14</td>
+          <td>HELLO</td>
+        </tr>
+      </table>  
+    </td>
+   </tr>
+</table>
+
 # Run using Actions
 Please run the Maven pom.xml file using the Maven CI Action Workflow called "Java CI with Maven". This Action builds the application and runs the JUnit Test Cases and the build and unit test ouput can be seen in console output section "Step 3 - Have GitHub Actions Build Maven Project". The JUnit Test Cases result in the following output e.g.:
 
