@@ -59,7 +59,7 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
           <th>String</th>
           <th>Cipher value</th>
           <th>Shift +3</th>
-          <th>Encoded Text</th>
+          <th>Encoded</th>
         </tr>
         <tr>
           <td>HELLO</td>
@@ -75,7 +75,7 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
           <th>String</th>
           <th>Cipher value</th>
           <th>Shift -3</th>
-          <th>Decoded Text</th>
+          <th>Decoded</th>
         </tr>
         <tr>
           <td>KHOOR</td>
