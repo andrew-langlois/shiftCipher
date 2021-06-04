@@ -16,7 +16,6 @@ public class ShiftCipherPlus3Test {
 
   @Test
   public void testDecode() {
-    fail("Testing failed assertion, in testDecode()");
     ShiftCipherPlus3 shiftCipher = new ShiftCipherPlus3();
     assertEquals(shiftCipher.decode(KHOOR), HELLO);
   }
@@ -70,9 +69,8 @@ public class ShiftCipherPlus3Test {
     System.out.println("Decoded to: " + sCurrentValue);
     long endTime   = System.currentTimeMillis();
     long totalTime = endTime - startTime;
-    System.out.println("Array Cipher Run time: " + totalTime + "ms" + "\n");
+    System.out.println("ASCII Cipher Run time: " + totalTime + "ms" + "\n");
 
     assertEquals(sStartingValue, sCurrentValue);
-    fail("Testing failed assertion!");
   }
 }

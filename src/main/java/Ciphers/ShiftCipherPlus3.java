@@ -26,7 +26,7 @@ public class ShiftCipherPlus3 {
       }
       return sbResult.toString();
     } else {
-      return ""; // Value was Null
+      return ""; // String was null
     }
   }
 
