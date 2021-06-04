@@ -38,6 +38,6 @@ jobs:
 
     - name: Step 5 - What is in the target directory
       run: |
-        run: echo Hello, world!
+        run: echo See target directory contents
         cd target
         ls -a
