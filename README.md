@@ -1,7 +1,8 @@
 # Shift Cipher
 Cipher Shifting A-Z characters by 3 character for encoding and decoding
 
-Please run the Maven pom.xml file using the Maven CI Action which builds the application and runs the JUnit Test Cases resulting in the following output e.g.:
+# Run using Maven CI Action
+Please run the Maven pom.xml file using the Maven CI Action Workflow called "Java CI with Maven". This Action builds the application and runs the JUnit Test Cases and the build and unit test ouput can be seen in console output section "Step 3 - Have GitHub Actions Build Maven Project". The JUnit Test Cases result in the following output e.g.:
 
 -------------------------------------------------------
  T E S T S
