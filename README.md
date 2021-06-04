@@ -1,5 +1,5 @@
 # Shift Cipher
-Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=7 and 10=K
+Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. <b style="color:Red;">H=7</b> and <b style="color:Red;">10=K</b>
 <table>
   <tr>
     <td>A</td>
@@ -9,10 +9,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=
     <td>E</td>
     <td>F</td>
     <td>G</td>
-    <td><B>H</B></td>
+    <td><B style="color:Red;">H</B></td>
     <td>I</td>
     <td>J</td>
-    <td><B>K</B></td>
+    <td><B style="color:Red;">K</B></td>
     <td>L</td>
     <td>M</td>
     <td>N</td>
@@ -31,10 +31,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=
     <td>4</td>
     <td>5</td>
     <td>6</td>
-    <td><B>7</B></td>
+    <td><B style="color:Red;">7</B></td>
     <td>8</td>
     <td>9</td>
-    <td><B>10</B></td>
+    <td><B style="color:Red;">10</B></td>
     <td>11</td>
     <td>12</td>
     <td>13</td>
@@ -62,10 +62,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=
           <th>Encoded</th>
         </tr>
         <tr>
-          <td>HELLO</td>
-          <td>7 4 11 11 14</td>
-          <td>10 7 14 14 17</td>
-          <td>KHOOR</td>
+          <td><B style="color:Red;">H</B>ELLO</td>
+          <td><B style="color:Red;">7</B> 4 11 11 14</td>
+          <td><B style="color:Red;">10</B> 7 14 14 17</td>
+          <td><B style="color:Red;">K</B>HOOR</td>
         </tr>
       </table>  
     </td>
@@ -78,10 +78,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=
           <th>Decoded</th>
         </tr>
         <tr>
-          <td>KHOOR</td>
-          <td>10 7 14 14 17</td>
-          <td>7 4 11 11 14</td>
-          <td>HELLO</td>
+          <td><B style="color:Red;">K</B>HOOR</td>
+          <td><B style="color:Red;">10</B> 7 14 14 17</td>
+          <td><B style="color:Red;">7</B> 4 11 11 14</td>
+          <td><B style="color:Red;">H</B>ELLO</td>
         </tr>
       </table>  
     </td>
