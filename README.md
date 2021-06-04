@@ -1,5 +1,5 @@
 # Shift Cipher
-Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=0 and 6=G
+Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. H=7 and 10=K
 <table>
   <tr>
     <td>A</td>
@@ -9,10 +9,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
     <td>E</td>
     <td>F</td>
     <td>G</td>
-    <td>H</td>
+    <td><B>H</B></td>
     <td>I</td>
     <td>J</td>
-    <td>K</td>
+    <td><B>K</B></td>
     <td>L</td>
     <td>M</td>
     <td>N</td>
@@ -31,10 +31,10 @@ Cipher Shifting A-Z characters by 3 characters for encoding and decoding e.g. A=
     <td>4</td>
     <td>5</td>
     <td>6</td>
-    <td>7</td>
+    <td><B>7</B></td>
     <td>8</td>
     <td>9</td>
-    <td>10</td>
+    <td><B>10</B></td>
     <td>11</td>
     <td>12</td>
     <td>13</td>
