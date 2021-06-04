@@ -26,7 +26,9 @@ jobs:
         distribution: 'adopt'
         
     - name: Step 1 - List the current directory
-      run: ls .. -a
+      run: |
+        pwd
+        ls ../.. -a
     
     - name: Step 2 - Find gradlew
       run: find ~/ -type f -name "gradlew"
