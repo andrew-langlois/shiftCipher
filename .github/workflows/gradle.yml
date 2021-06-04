@@ -27,6 +27,9 @@ jobs:
         
     - name: Step 1 - List the current directory
       run: ls -a
+    
+    - name: Step 2 - Find gradlew
+      run: find ~/ -type f -name "gradlew"
       
     #- name: Step 2 - Grant execute permission for gradlew
     #  run: chmod +x gradlew
